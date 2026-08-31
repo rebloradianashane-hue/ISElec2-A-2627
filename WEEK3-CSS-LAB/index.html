@@ -4,13 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Week 3 CSS Lab</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
     <header>
-        <h1 id="dynamic-title">My CSS Web Page</h1>
+        <h1>My CSS Web Page</h1>
         <nav>
             <ul>
                 <li><a href="#about">About</a></li>
@@ -18,18 +17,12 @@
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
-
-        <button id="theme-toggle">Dark Mode</button>
     </header>
 
     <main>
-
         <section id="about">
-
             <h2>About Us</h2>
-
             <p>Welcome to our website! This section introduces our company and its values.</p>
-
         </section>
 
         <section id="services">
@@ -38,58 +31,36 @@
 
             <p>We offer a range of services designed to meet your needs.</p>
 
-            <h3>My To-Do List</h3>
-
-            <input type="text" id="task-input" placeholder="Enter a task">
-
-            <button id="add-task">Add Task</button>
-
-            <ul id="task-list"></ul>
-
         </section>
 
         <section id="contact">
 
             <h2>Contact Us</h2>
 
-           <form id="contact-form">
+            <form>
 
                 <label for="name">Name:</label>
+
                 <input type="text" id="name" name="name" required>
 
-                <label for="email">Email:</label>
-                <input type="text" id="email" name="email" required>
-
                 <label for="message">Message:</label>
+
                 <textarea id="message" name="message" required></textarea>
 
                 <button type="submit">Send</button>
 
             </form>
 
-            <div id="modal" class="modal">
-
-                <div class="modal-content">
-
-                <span id="close-modal">&times;</span>
-
-                <p id="modal-message"></p>
-
-                </div>
-
-            </div>
         </section>
 
     </main>
 
     <footer>
 
-        <p>&copy; 2025 Your Company Name</p>
+        <p>&copy; 2025 REBLORA'S COMPANY</p>
 
     </footer>
 
-    <script src="script.js"></script>
 </body>
 
 </html>
-
